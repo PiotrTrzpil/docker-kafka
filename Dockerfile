@@ -1,6 +1,6 @@
-FROM wurstmeister/kafka:0.8.2.2
+FROM wurstmeister/kafka:0.10.0.0
 
-ADD log4j.properties /opt/kafka_2.10-0.8.2.2/config/log4j.properties
+ADD log4j.properties /opt/kafka_2.10-0.10.0.0/config/log4j.properties
 
 ADD http://central.maven.org/maven2/io/prometheus/jmx/jmx_prometheus_javaagent/0.5/jmx_prometheus_javaagent-0.5.jar /usr/app/jmx_prometheus_javaagent.jar
 
